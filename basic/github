@@ -1,0 +1,17 @@
+git commands -
+
+git --version
+git --help
+git config --global user.name   // for getting name
+git config --global user.name devesh  // for name setting
+git config --global --list   // for getting list
+git status   // for checking repo
+git init // for creating local repo
+git log // for finding commit
+git branch  // list of branches
+git branch branch_name  // for creating new branch
+git checkout branch_name   // for shifting to another branch
+git rm  // for remove any file
+git merge <branch>  // merge the given branch to given one
+git branch -d   // delete the branch
+git remote -v   // remote respo se konsi local repo connect h
