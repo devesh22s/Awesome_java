@@ -6,8 +6,8 @@ public class question {
 //   Recursion ek aisi technique hai jisme ek function khud ko hi call karta hai.
 
 //    public static  void main(String args[]){
-////        printnum(1);
-//        printnum2(1);
+////        printnum(1);   // print 1 to 10
+//        printnum2(1);    // print 10 to 1 due to overflow stack
 //    }
 
 
@@ -29,7 +29,7 @@ public class question {
 //        }
 //    }
 
-//
+
 //  ----------------------------  🔄 Step-by-Step Explanation: ---------------------------------------
 //👣 Step 1: Function calls go deeper with n+1
 //Let’s track what’s happening:
@@ -56,8 +56,52 @@ public class question {
 //Back to printnum2(1)	prints 1 ✅
 
 
+
+
+
+
 //    -------------------------------------------------------------------------------------------------------
-//Print sum of First N numbers using recursion
+// print the reverse of a number
+
+     public static void main(String[] args){
+
+
+     }
+     public  void  reverse{
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     ---------------------------------------------------------------------------------
+//   Print sum of First N numbers using recursion
+
+//    public static void main(String[] args){
+//            int [] arr = {1,2,3,4,5,6,7,8,9,10};
+//            int result = Sum(arr, 0);
+//            System.out.println("total sum is "+ result);
+//        }
+//    public static int Sum(int[] arr, int n){
+//            if(n == arr.length){
+//                return 0;
+//            }
+//            return arr[n] + Sum(arr,n+1);
+//    }
+
+
+//
+
 
 
 }

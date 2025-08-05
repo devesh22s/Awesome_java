@@ -162,9 +162,9 @@ public class operators {
 //     ~not operator --> formula => -(n + 1)
 //            working  --> there are 32 bits in integer means 4 bit
 //            ~2 --> 0000 0000 0000 0010
-//                   1111 1111 1111 1101 --> negative 1's compliment
+//                   1111 1111 1111 1101 --> negative 1's compliment, MSB is 1
 //                   0000 0000 0000 0011  --> 2'S COMPLIMENT
-//                 for 2's compliment ---> when Ms is 1 then there is - sign so --> means 1's compliment number negative h aur negative numbers ko memory me save karne ke liye 2's compliment ka use hota h jisme +1 add hota h
+//                 for 2's compliment ---> when Msb is 1 then there is - sign so --> means 1's compliment number negative h aur negative numbers ko memory me save karne ke liye 2's compliment ka use hota h jisme +1 add hota h
 
         System.out.println(~2);
 
