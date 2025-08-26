@@ -63,25 +63,27 @@ public class question {
 //    -------------------------------------------------------------------------------------------------------
 // print the reverse of a number
 
-     public static void main(String[] args){
-
-
-     }
-     public  void  reverse{
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
+//     public static void main(String[] args){
+//         int n = 121;
+//           int result =  reverse(n, 0);
+//         System.out.println("the reversed number is: "+ result);
+//         if (result == n){
+//             System.out.println("it is palindrone");
+//         }else {
+//             System.out.println("it is not a palindrone");
+//         }
+//     }
+//     public static int  reverse(int n, int rev){
+//         if(n ==0){
+//             return rev;
+//         }
+//
+//         int last = n%10;
+//         rev = rev*10 + last;
+//         return reverse(n/10, rev);
+//
+//
+//    }
 
 
 //     ---------------------------------------------------------------------------------
@@ -100,7 +102,9 @@ public class question {
 //    }
 
 
-//
+// ------------------------------------------------------------------------------------------
+
+
 
 
 

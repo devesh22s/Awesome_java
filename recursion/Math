@@ -1,0 +1,28 @@
+The Math  class in java (part of java.lang package) provides a collection of static method to perform common mathematical operation like exponential , trignomatry, rounding etc.
+
+1. Arithmetic operator ->
+Math.abs(x)  - return the absolute value
+Math.max(a, b) - return the maximum number from a and b
+Math.min(a, b)
+Math.sqrt(x) - return the square root of x
+Math.cbrt(x) - return the cube root of x
+Math.pow(x,y)
+Math.hypot(a, b)
+
+
+2. Rounding and truncating
+Math.ceil(x)  - round up the nearest value
+Math.floor(x)  - round down the nearest value
+Math.round(x) - round to the nearest value( return value in int or long)
+
+
+3. Trigonometry
+Math.sin(x) - return sine of x (in radians)
+
+
+4. Exponential and logarithmic
+Math.log()  - return natural logarithm (base e) of x
+
+5. random number
+Math.random()  - return a random double between 0.0 to 1.0
+for integer --> (int)(Math.random()*100) + 1;
